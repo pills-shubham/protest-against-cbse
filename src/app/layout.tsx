@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://protest-against-cbse.vercel.app'),
   title: "#UnfairCBSE — Students Against Unfair Grading",
   description: "CBSE's grading policies are pushing students into unfair outcomes. Sign the petition and join thousands demanding accountability.",
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootLayout({
